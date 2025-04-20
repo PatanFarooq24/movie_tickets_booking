@@ -1,0 +1,19 @@
+What are we doing in this code?
+We are creating a movie ticket booking system where the movie (Avengers) has a limited number of tickets (200). 
+The system allows users to book tickets through multiple platforms like paytm(), district(), and bookmyshow().
+To make sure that all platforms access the same ticket count, we use the Singleton Design Pattern. 
+This ensures that only one instance of the avengers class exists, no matter how many times or from where it is called.
+
+Purpose of the Code
+✅ To simulate a centralized ticket booking system.
+✅ To use the Singleton Pattern to maintain shared state (available tickets) across different booking portals.
+✅ To prevent creating multiple instances of the avengers class that would otherwise maintain separate ticket counts.
+✅ To demonstrate object-oriented programming, decorators, and encapsulation in Python.
+
+Real-World Analogy
+Imagine:
+There’s one movie (Avengers) running in a theatre.
+Users can book tickets through Paytm, BookMyShow, or District centers.
+All of these should talk to the same system — so ticket availability remains consistent.
+This code ensures that behavior using a Singleton pattern.
+
