@@ -1,0 +1,13 @@
+#paytm
+Enter no.of tickets: 10
+Tickets booked Successfully
+Available tickets are : 190
+
+#district
+Enter no.of tickets: 50
+Tickets booked Successfully
+Available tickets are : 140
+
+#bookmyshow
+Enter no.of tickets: 200
+Tickets sold out
